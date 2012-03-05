@@ -74,7 +74,7 @@ class Ngram(models.Model):
 ############################################################
 def getSolrNgramsArray(texte,mintn=0):
 	q = "texteid:"+str(texte.id)
-	p = {'fq':'django_ct:(doxer.texte)','qt':'tvrh','fl':'text','tv.positions':'true','tv.fl':'textengram','tv.all':'true'}
+	p = {'fq':'django_ct:(ngramer.texte)','qt':'tvrh','fl':'text','tv.positions':'true','tv.fl':'textengram','tv.all':'true'}
 	
 	#select?q=texteid:1&fq=django_ct:(doxer.texte)&qt=tvrh&fl=text&tv.positions=true&tv.fl&tv.all=true
 	res = launchSolrQuery(q,p)
@@ -126,7 +126,7 @@ def getSolrNgramsArray(texte,mintn=0):
 ############################################################
 def getSolrClusters(texte):
 	q = "texteid:"+str(texte.id)
-	p = {'usingreqhandler':'clustering','fq':'django_ct:(doxer.ngram)','fl':'ngramxmlid,id','rows':texte.ngram_set.count()}
+	p = {'usingreqhandler':'clustering','fq':'django_ct:(ngramer.ngram)','fl':'ngramxmlid,id','rows':texte.ngram_set.count()}
 	
 	#clustering?q=texteid:1&fq=django_ct:(doxer.ngram)&fl=ngramxmlid,id&rows=10
 	res = launchSolrQuery(q,p)
