@@ -1,0 +1,10 @@
+results:
+<ul>
+	{% for r in results %}
+	<li>
+		{% for key,val in r.items %}
+		{{key}}:{{val}} | 
+		{% endfor %}
+	</li>
+	{% endfor %}
+</ul>

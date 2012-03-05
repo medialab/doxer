@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:txm="http://textometrie.org/1.0">
+<teiHeader></teiHeader>
+<text name="example" type="txt" path="">
+<p id="0">
+<lb id="lb_0"></lb>
+<s n="1">
+<w id="w_1">
+<txm:form>c&apos;</txm:form>
+<interp resp="#txm" type="#ttpos">PRO:DEM</interp>
+<interp resp="#txm" type="#ttlemma">ce</interp>
+</w>
+<w id="w_2">
+<txm:form>est</txm:form>
+<interp resp="#txm" type="#ttpos">VER:pres</interp>
+<interp resp="#txm" type="#ttlemma">être</interp>
+</w>
+<w id="w_3">
+<txm:form>formidable</txm:form>
+<interp resp="#txm" type="#ttpos">ADJ</interp>
+<interp resp="#txm" type="#ttlemma">formidable</interp>
+</w>
+<w id="w_4" type="pon">
+<txm:form>!</txm:form>
+<interp resp="#txm" type="#ttpos">SENT</interp>
+<interp resp="#txm" type="#ttlemma">!</interp>
+</w>
+</s>
+<s n="2">
+<w id="w_5">
+<txm:form>je</txm:form>
+<interp resp="#txm" type="#ttpos">PRO:PER</interp>
+<interp resp="#txm" type="#ttlemma">je</interp>
+</w>
+<w id="w_6">
+<txm:form>vis</txm:form>
+<interp resp="#txm" type="#ttpos">VER:pres</interp>
+<interp resp="#txm" type="#ttlemma">vivre</interp>
+</w>
+<w id="w_7">
+<txm:form>à</txm:form>
+<interp resp="#txm" type="#ttpos">PRP</interp>
+<interp resp="#txm" type="#ttlemma">à</interp>
+</w>
+<w id="w_8">
+<txm:form>New</txm:form>
+<interp resp="#txm" type="#ttpos">NAM</interp>
+<interp resp="#txm" type="#ttlemma">New</interp>
+</w>
+<w id="w_9">
+<txm:form>York</txm:form>
+<interp resp="#txm" type="#ttpos">NAM</interp>
+<interp resp="#txm" type="#ttlemma">York</interp>
+</w>
+<w id="w_10" type="pon">
+<txm:form>.</txm:form>
+<interp resp="#txm" type="#ttpos">SENT</interp>
+<interp resp="#txm" type="#ttlemma">.</interp>
+</w>
+<lb id="lb_1"></lb>
+</s>
+<s n="3">
+<w id="w_11">
+<txm:form>Je</txm:form>
+<interp resp="#txm" type="#ttpos">PRO:PER</interp>
+<interp resp="#txm" type="#ttlemma">je</interp>
+</w>
+<w id="w_12">
+<txm:form>vis</txm:form>
+<interp resp="#txm" type="#ttpos">VER:pres</interp>
+<interp resp="#txm" type="#ttlemma">vivre</interp>
+</w>
+<w id="w_13">
+<txm:form>avec</txm:form>
+<interp resp="#txm" type="#ttpos">PRP</interp>
+<interp resp="#txm" type="#ttlemma">avec</interp>
+</w>
+<w id="w_14">
+<txm:form>Marie</txm:form>
+<interp resp="#txm" type="#ttpos">NAM</interp>
+<interp resp="#txm" type="#ttlemma">Marie</interp>
+</w>
+<w id="w_15" type="pon">
+<txm:form>-</txm:form>
+<interp resp="#txm" type="#ttpos">PUN</interp>
+<interp resp="#txm" type="#ttlemma">-</interp>
+</w>
+<w id="w_16">
+<txm:form>Claire</txm:form>
+<interp resp="#txm" type="#ttpos">NAM</interp>
+<interp resp="#txm" type="#ttlemma">Claire</interp>
+</w>
+<w id="w_17">
+<txm:form>qui</txm:form>
+<interp resp="#txm" type="#ttpos">PRO:REL</interp>
+<interp resp="#txm" type="#ttlemma">qui</interp>
+</w>
+<w id="w_18">
+<txm:form>vit</txm:form>
+<interp resp="#txm" type="#ttpos">VER:pres</interp>
+<interp resp="#txm" type="#ttlemma">vivre</interp>
+</w>
+<w id="w_19">
+<txm:form>à</txm:form>
+<interp resp="#txm" type="#ttpos">PRP</interp>
+<interp resp="#txm" type="#ttlemma">à</interp>
+</w>
+<w id="w_20">
+<txm:form>Paris</txm:form>
+<interp resp="#txm" type="#ttpos">NAM</interp>
+<interp resp="#txm" type="#ttlemma">Paris</interp>
+</w>
+<w id="w_21" type="pon">
+<txm:form>.</txm:form>
+<interp resp="#txm" type="#ttpos">SENT</interp>
+<interp resp="#txm" type="#ttlemma">.</interp>
+</w>
+</s>
+<s n="4">
+<w id="w_22">
+<txm:form>Nous</txm:form>
+<interp resp="#txm" type="#ttpos">PRO:PER</interp>
+<interp resp="#txm" type="#ttlemma">nous</interp>
+</w>
+<w id="w_23">
+<txm:form>sommes</txm:form>
+<interp resp="#txm" type="#ttpos">VER:pres</interp>
+<interp resp="#txm" type="#ttlemma">sommer|être</interp>
+</w>
+<w id="w_24">
+<txm:form>plutôt</txm:form>
+<interp resp="#txm" type="#ttpos">ADV</interp>
+<interp resp="#txm" type="#ttlemma">plutôt</interp>
+</w>
+<w id="w_25">
+<txm:form>sympathiques</txm:form>
+<interp resp="#txm" type="#ttpos">ADJ</interp>
+<interp resp="#txm" type="#ttlemma">sympathique</interp>
+</w>
+<w id="w_26" type="pon">
+<txm:form>.</txm:form>
+<interp resp="#txm" type="#ttpos">SENT</interp>
+<interp resp="#txm" type="#ttlemma">.</interp>
+</w>
+</s>
+<s n="5">
+<w id="w_27">
+<txm:form>bravo</txm:form>
+<interp resp="#txm" type="#ttpos">INT</interp>
+<interp resp="#txm" type="#ttlemma">bravo</interp>
+</w>
+<w id="w_28" type="pon">
+<txm:form>?</txm:form>
+<interp resp="#txm" type="#ttpos">SENT</interp>
+<interp resp="#txm" type="#ttlemma">?</interp>
+</w>
+</s>
+</p>
+</text>
+</TEI>

@@ -1,0 +1,1368 @@
+2012-02-14 12:24:58.259:INFO::Logging to STDERR via org.mortbay.log.StdErrLog
+2012-02-14 12:24:58.384:INFO::jetty-6.1-SNAPSHOT
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Feb 14, 2012 12:24:58 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /home/pj/djangos/dexter/solr/solr/solr.xml
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer: solrHome=solr/ instance=748134027
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/./'
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrConfig initLibs
+INFO: Adding specified lib dirs to ClassLoader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/metadata-extractor-LICENSE-PD.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/boilerpipe-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/commons-compress-1.2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-core-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/commons-compress-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/fontbox-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/rome-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/jempbox-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/jempbox-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xml-apis-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-scratchpad-3.8-beta4.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/commons-compress-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xercesImpl-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-core-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/fontbox-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/asm-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/rome-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcprov-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tagsoup-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tagsoup-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/pdfbox-1.6.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-scratchpad-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/rome-0.9.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-core-0.7.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-3.8-beta4.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/pdfbox-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xercesImpl-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/netcdf-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xmlbeans-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-parsers-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/dom4j-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xmlbeans-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-parsers-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcmail-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-3.8-beta4.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/asm-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/icu4j-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/icu4j-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-schemas-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcmail-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-dom-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-schemas-3.8-beta4.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/netcdf-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xml-apis-1.0.b2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xml-apis-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/fontbox-1.6.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcprov-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/asm-3.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-dom-0.7.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/xercesImpl-2.8.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-dom-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/dom4j-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/pdfbox-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/boilerpipe-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/apache-mime4j-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/metadata-extractor-2.4.0-beta-1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-scratchpad-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/poi-ooxml-schemas-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-core-0.10.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/jempbox-1.6.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/icu4j-4_8_1_1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/extraction/lib/tika-parsers-0.10.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-1.5.2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-2.4.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-asl-1.5.2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-0.3.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-0.3.4-jdk15.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-0.3.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-collections-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-beanutils-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-beanutils-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-1.6.4.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-tools-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-tools-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-collections-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/velocity/lib/velocity-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/dist/apache-solr-cell-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/dist/apache-solr-clustering-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/dist/apache-solr-dataimporthandler-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/dist/apache-solr-langid-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/dist/apache-solr-velocity-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-1.5.2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-mapper-asl-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-2.4.1.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-asl-1.5.2.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-LICENSE-BSD_LIKE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-math-0.3.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/hppc-0.3.4-jdk15.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-0.3.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/carrot2-core-3.5.0.jar' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-NOTICE.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/simple-xml-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/jackson-core-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/pj/djangos/dexter/contrib/clustering/lib/mahout-collections-LICENSE-ASL.txt' to classloader
+Feb 14, 2012 12:24:58 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_35
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Feb 14, 2012 12:24:59 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Feb 14, 2012 12:24:59 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=default
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created boolean: org.apache.solr.schema.BoolField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sint: org.apache.solr.schema.SortableIntField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created slong: org.apache.solr.schema.SortableLongField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sfloat: org.apache.solr.schema.SortableFloatField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sdouble: org.apache.solr.schema.SortableDoubleField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.DateField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.HTMLStripCharFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.HTMLStripCharFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text: org.apache.solr.schema.TextField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created grams: org.apache.solr.schema.TextField
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.HTMLStripCharFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.ShingleFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternReplaceFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.HTMLStripCharFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.ShingleFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternReplaceFilterFactory
+Feb 14, 2012 12:24:59 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created shingle: org.apache.solr.schema.TextField
+Feb 14, 2012 12:24:59 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field is text
+Feb 14, 2012 12:24:59 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Feb 14, 2012 12:24:59 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrCore <init>
+INFO: [] Opening new SolrCore at solr/./, dataDir=solr/./data/
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.JmxMonitoredMap <init>
+INFO: No JMX servers found, not exposing Solr information with JMX.
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+Feb 14, 2012 12:24:59 PM org.apache.solr.response.XSLTResponseWriter init
+INFO: xsltCacheLifetimeSeconds=5
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created search: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /browse: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/javabin: solr.BinaryUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.CSVRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.JsonUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.XsltUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/xslt: solr.XsltUpdateRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /spell: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created tvrh: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /clustering: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /terms: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /elevate: solr.SearchHandler
+Feb 14, 2012 12:24:59 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@51f21c50 main
+Feb 14, 2012 12:24:59 PM org.apache.solr.update.CommitTracker <init>
+INFO: commitTracker AutoCommit: disabled
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SpellCheckComponent inform
+WARNING: No queryConverter defined, using default converter
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.clustering.ClusteringComponent inform
+INFO: Initializing Clustering Engines
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.clustering.ClusteringComponent inform
+INFO: Finished Initializing Clustering Engines
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /home/pj/djangos/dexter/solr/solr/./conf/elevate.xml
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@74bfed5a
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@6477eb97
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7d0c3a08
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@2db6235b
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@10cb42cf
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@108f2ca6
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@74bfed5a
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@6477eb97
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7d0c3a08
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@2db6235b
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@10cb42cf
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@27bc4ec8
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@108f2ca6
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: 
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@51f21c50 main
+Feb 14, 2012 12:24:59 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/home/pj/djangos/dexter/solr
+Feb 14, 2012 12:24:59 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Feb 14, 2012 12:24:59 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Feb 14, 2012 12:24:59 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Feb 14, 2012 12:24:59 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml} hits=0 status=0 QTime=45 
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:24:59 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: default
+2012-02-14 12:24:59.628:INFO::Started SocketConnector@0.0.0.0:8985
+Feb 14, 2012 12:24:59 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@51f21c50 main
+Feb 14, 2012 12:25:18 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json&show=schema} status=0 QTime=173 
+Feb 14, 2012 12:25:19 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json} status=0 QTime=1048 
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 deleteAll
+INFO: [] REMOVING ALL DOCUMENTS FROM INDEX
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_59,version=1328632762094,generation=189,filenames=[_40.nrm, _3w.tvd, _3z.tis, _3x.prx, _3x.nrm, _40.tis, _41.frq, _40.fdx, _3w.tvf, _40.tii, _40.fdt, _41.tvd, _41.fnm, _41.tvf, _3z.tii, _3z.tvd, _3z.tvf, _41.tvx, _3w.nrm, _3y.tis, _3x.tis, _3x.tii, segments_59, _3y.tii, _3y.tvx, _3y.tvd, _3y.tvf, _3x.tvx, _3w.fnm, _3x.tvd, _40.tvd, _3y.fdx, _3x.tvf, _3w.prx, _3w.frq, _41.prx, _3z.fnm, _3z.prx, _40.prx, _3y.prx, _41.fdt, _3y.nrm, _3y.frq, _41.fdx, _3z.tvx, _40.tvf, _3y.fdt, _3y.fnm, _3x.fdx, _3w.tvx, _40.frq, _3w.fdt, _3x.frq, _3z.nrm, _3w.fdx, _3w.tii, _40.fnm, _40.tvx, _3z.fdt, _3w.tis, _3z.fdx, _3z.frq, _41.tii, _41.nrm, _41.tis, _3x.fdt, _3x.fnm]
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762094
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_59,version=1328632762094,generation=189,filenames=[_40.nrm, _3w.tvd, _3z.tis, _3x.prx, _3x.nrm, _40.tis, _41.frq, _40.fdx, _3w.tvf, _40.tii, _40.fdt, _41.tvd, _41.fnm, _41.tvf, _3z.tii, _3z.tvd, _3z.tvf, _41.tvx, _3w.nrm, _3y.tis, _3x.tis, _3x.tii, segments_59, _3y.tii, _3y.tvx, _3y.tvd, _3y.tvf, _3x.tvx, _3w.fnm, _3x.tvd, _40.tvd, _3y.fdx, _3x.tvf, _3w.prx, _3w.frq, _41.prx, _3z.fnm, _3z.prx, _40.prx, _3y.prx, _41.fdt, _3y.nrm, _3y.frq, _41.fdx, _3z.tvx, _40.tvf, _3y.fdt, _3y.fnm, _3x.fdx, _3w.tvx, _40.frq, _3w.fdt, _3x.frq, _3z.nrm, _3w.fdx, _3w.tii, _40.fnm, _40.tvx, _3z.fdt, _3w.tis, _3z.fdx, _3z.frq, _41.tii, _41.nrm, _41.tis, _3x.fdt, _3x.fnm]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5a,version=1328632762095,generation=190,filenames=[segments_5a]
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762095
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@7ce1eae7 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7ce1eae7 main from Searcher@51f21c50 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7ce1eae7 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7ce1eae7 main from Searcher@51f21c50 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7ce1eae7 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7ce1eae7 main from Searcher@51f21c50 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7ce1eae7 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7ce1eae7 main from Searcher@51f21c50 main
+	documentCache{lookups=9,hits=6,hitratio=0.66,inserts=3,evictions=0,size=3,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7ce1eae7 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@7ce1eae7 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@7ce1eae7 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@51f21c50 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=9,hits=6,hitratio=0.66,inserts=3,evictions=0,size=3,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=*:*,commit=} 0 116
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=116 
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=true,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5a,version=1328632762095,generation=190,filenames=[segments_5a]
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762095
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5979b7b0 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5979b7b0 main from Searcher@7ce1eae7 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5979b7b0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5979b7b0 main from Searcher@7ce1eae7 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5979b7b0 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5979b7b0 main from Searcher@7ce1eae7 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5979b7b0 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5979b7b0 main from Searcher@7ce1eae7 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5979b7b0 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@5979b7b0 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@5979b7b0 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@7ce1eae7 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@460ab1b4 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@460ab1b4 main from Searcher@5979b7b0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@460ab1b4 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@460ab1b4 main from Searcher@5979b7b0 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@460ab1b4 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@460ab1b4 main from Searcher@5979b7b0 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@460ab1b4 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@460ab1b4 main from Searcher@5979b7b0 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@460ab1b4 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@460ab1b4 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@460ab1b4 main
+Feb 14, 2012 12:25:28 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@5979b7b0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:25:28 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {optimize=,commit=} 0 9
+Feb 14, 2012 12:25:28 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=9 
+Feb 14, 2012 12:25:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json&show=schema} status=0 QTime=1 
+Feb 14, 2012 12:25:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json} status=0 QTime=1 
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 deleteAll
+INFO: [] REMOVING ALL DOCUMENTS FROM INDEX
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5a,version=1328632762095,generation=190,filenames=[segments_5a]
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762095
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5a,version=1328632762095,generation=190,filenames=[segments_5a]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5b,version=1328632762096,generation=191,filenames=[segments_5b]
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762096
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@4b8e899c main
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@4b8e899c main from Searcher@460ab1b4 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@4b8e899c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@4b8e899c main from Searcher@460ab1b4 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@4b8e899c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@4b8e899c main from Searcher@460ab1b4 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@4b8e899c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@4b8e899c main from Searcher@460ab1b4 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@4b8e899c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@4b8e899c main
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@4b8e899c main
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@460ab1b4 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=*:*,commit=} 0 8
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=8 
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=true,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5b,version=1328632762096,generation=191,filenames=[segments_5b]
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762096
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2c3299f6 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2c3299f6 main from Searcher@4b8e899c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2c3299f6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2c3299f6 main from Searcher@4b8e899c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2c3299f6 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2c3299f6 main from Searcher@4b8e899c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2c3299f6 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2c3299f6 main from Searcher@4b8e899c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2c3299f6 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@2c3299f6 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@2c3299f6 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@4b8e899c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2e19fc25 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2e19fc25 main from Searcher@2c3299f6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2e19fc25 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2e19fc25 main from Searcher@2c3299f6 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2e19fc25 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2e19fc25 main from Searcher@2c3299f6 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2e19fc25 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2e19fc25 main from Searcher@2c3299f6 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2e19fc25 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@2e19fc25 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@2e19fc25 main
+Feb 14, 2012 12:41:16 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@2c3299f6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 12:41:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {optimize=,commit=} 0 11
+Feb 14, 2012 12:41:16 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=11 
+Feb 14, 2012 12:41:24 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json&show=schema} status=0 QTime=2 
+Feb 14, 2012 12:41:24 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json} status=0 QTime=1 
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 deleteAll
+INFO: [] REMOVING ALL DOCUMENTS FROM INDEX
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5b,version=1328632762096,generation=191,filenames=[segments_5b]
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762096
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5b,version=1328632762096,generation=191,filenames=[segments_5b]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5c,version=1328632762097,generation=192,filenames=[segments_5c]
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762097
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@420a6d35 main
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@420a6d35 main from Searcher@2e19fc25 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@420a6d35 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@420a6d35 main from Searcher@2e19fc25 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@420a6d35 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@420a6d35 main from Searcher@2e19fc25 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@420a6d35 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@420a6d35 main from Searcher@2e19fc25 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@420a6d35 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@420a6d35 main
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@420a6d35 main
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@2e19fc25 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=*:*,commit=} 0 10
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=10 
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=true,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5c,version=1328632762097,generation=192,filenames=[segments_5c]
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762097
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@56f2c96c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@56f2c96c main from Searcher@420a6d35 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@56f2c96c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@56f2c96c main from Searcher@420a6d35 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@56f2c96c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@56f2c96c main from Searcher@420a6d35 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@56f2c96c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@56f2c96c main from Searcher@420a6d35 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@56f2c96c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@56f2c96c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@56f2c96c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@420a6d35 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5d85fe0c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5d85fe0c main from Searcher@56f2c96c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5d85fe0c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5d85fe0c main from Searcher@56f2c96c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5d85fe0c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5d85fe0c main from Searcher@56f2c96c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5d85fe0c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5d85fe0c main from Searcher@56f2c96c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5d85fe0c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@5d85fe0c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@5d85fe0c main
+Feb 14, 2012 1:07:53 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@56f2c96c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:07:53 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {optimize=,commit=} 0 10
+Feb 14, 2012 1:07:53 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=10 
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5c,version=1328632762097,generation=192,filenames=[segments_5c]
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762097
+Feb 14, 2012 1:08:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5c,version=1328632762097,generation=192,filenames=[segments_5c]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5d,version=1328632762099,generation=193,filenames=[_42.prx, _42.tvd, _42.tvf, _42.fnm, _42.fdt, _42.tvx, _42.tis, _42.nrm, _42.fdx, segments_5d, _42.tii, _42.frq]
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762099
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1c87093 main
+Feb 14, 2012 1:08:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1c87093 main from Searcher@5d85fe0c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1c87093 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1c87093 main from Searcher@5d85fe0c main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1c87093 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1c87093 main from Searcher@5d85fe0c main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1c87093 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1c87093 main from Searcher@5d85fe0c main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1c87093 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@1c87093 main
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@1c87093 main
+Feb 14, 2012 1:08:30 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@5d85fe0c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=9,cumulative_hits=6,cumulative_hitratio=0.66,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:08:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.texte.1, doxer.texte.2, doxer.texte.3, doxer.texte.4, doxer.texte.5, doxer.texte.6, doxer.texte.7, doxer.texte.8, ... (19 adds)],commit=} 0 72
+Feb 14, 2012 1:08:30 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=72 
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@74bfed5a
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@6477eb97
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7d0c3a08
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@2db6235b
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@10cb42cf
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.TermVectorComponent@4c4b11e9
+Feb 14, 2012 1:08:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@108f2ca6
+Feb 14, 2012 1:08:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select/ params={fl=text&q=texteid:19&tv.all=true&tv.positions=true&tv.fl=textengram&wt=json&qt=tvrh&fq=django_ct:(doxer.texte)} hits=1 status=0 QTime=12 
+Feb 14, 2012 1:08:42 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select/ params={fl=text&q=texteid:19&tv.all=true&tv.positions=true&tv.fl=textengram&wt=json&qt=tvrh&fq=django_ct:(doxer.texte)} hits=1 status=0 QTime=2 
+Feb 14, 2012 1:08:47 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select/ params={fl=text&q=texteid:19&tv.all=true&tv.positions=true&tv.fl=textengram&wt=json&qt=tvrh&fq=django_ct:(doxer.texte)} hits=1 status=0 QTime=3 
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5d,version=1328632762099,generation=193,filenames=[_42.prx, _42.tvd, _42.tvf, _42.fnm, _42.fdt, _42.tvx, _42.tis, _42.nrm, _42.fdx, segments_5d, _42.tii, _42.frq]
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762099
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5d,version=1328632762099,generation=193,filenames=[_42.prx, _42.tvd, _42.tvf, _42.fnm, _42.fdt, _42.tvx, _42.tis, _42.nrm, _42.fdx, segments_5d, _42.tii, _42.frq]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5e,version=1328632762103,generation=194,filenames=[_43.prx, _43.fdx, _43.frq, _43.tii, _43.nrm, _43.fnm, segments_5e, _43.tvf, _43.tvx, _43.tis, _43.tvd, _43.fdt]
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762103
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@78cd6aa0 main
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@78cd6aa0 main from Searcher@1c87093 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@78cd6aa0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@78cd6aa0 main from Searcher@1c87093 main
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@78cd6aa0 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@78cd6aa0 main from Searcher@1c87093 main
+	queryResultCache{lookups=3,hits=2,hitratio=0.66,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@78cd6aa0 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@78cd6aa0 main from Searcher@1c87093 main
+	documentCache{lookups=6,hits=5,hitratio=0.83,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@78cd6aa0 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@78cd6aa0 main
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@78cd6aa0 main
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@1c87093 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	queryResultCache{lookups=3,hits=2,hitratio=0.66,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=6,hits=5,hitratio=0.83,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.texte.1, doxer.texte.2, doxer.texte.3, doxer.texte.4, doxer.texte.5, doxer.texte.6, doxer.texte.7, doxer.texte.8, ... (21 adds)],commit=} 0 46
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=46 
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5e,version=1328632762103,generation=194,filenames=[_43.prx, _43.fdx, _43.frq, _43.tii, _43.nrm, _43.fnm, segments_5e, _43.tvf, _43.tvx, _43.tis, _43.tvd, _43.fdt]
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762103
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5e,version=1328632762103,generation=194,filenames=[_43.prx, _43.fdx, _43.frq, _43.tii, _43.nrm, _43.fnm, segments_5e, _43.tvf, _43.tvx, _43.tis, _43.tvd, _43.fdt]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5f,version=1328632762105,generation=195,filenames=[_43.prx, _44.frq, _44.fdx, _43.tii, _43.frq, segments_5f, _43.nrm, _44.fdt, _43.tvx, _43.tis, _44.fnm, _44.tvx, _44.tii, _44.nrm, _43.fdx, _44.prx, _44.tis, _43.fnm, _44.tvd, _43.tvf, _44.tvf, _43.tvd, _43.fdt]
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762105
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@445ead9d main
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@445ead9d main from Searcher@78cd6aa0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@445ead9d main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@445ead9d main from Searcher@78cd6aa0 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@445ead9d main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@445ead9d main from Searcher@78cd6aa0 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@445ead9d main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@445ead9d main from Searcher@78cd6aa0 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@445ead9d main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@445ead9d main
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@445ead9d main
+Feb 14, 2012 1:08:57 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@78cd6aa0 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=2,cumulative_hitratio=0.66,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=15,cumulative_hits=11,cumulative_hitratio=0.73,cumulative_inserts=4,cumulative_evictions=0}
+Feb 14, 2012 1:08:57 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.ngram.1, doxer.ngram.2, doxer.ngram.3, doxer.ngram.4, doxer.ngram.5, doxer.ngram.6, doxer.ngram.7, doxer.ngram.8, ... (10 adds)],commit=} 0 26
+Feb 14, 2012 1:08:57 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=26 
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@74bfed5a
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@6477eb97
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7d0c3a08
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@2db6235b
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@10cb42cf
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.clustering.ClusteringComponent@5675b3ee
+Feb 14, 2012 1:09:02 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@108f2ca6
+Feb 14, 2012 1:09:03 PM org.carrot2.matrix.NNIInterface instantiateLapack
+INFO: Native LAPACK not available: nni/LAPACK
+Feb 14, 2012 1:09:03 PM org.carrot2.matrix.NNIInterface instantiateBlas
+INFO: Native BLAS not available: nni/BLAS
+Feb 14, 2012 1:09:03 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/clustering/ params={fl=ngramxmlid,id&q=texteid:21&wt=json&fq=django_ct:(doxer.ngram)&usingreqhandler=clustering&rows=10} hits=10 status=0 QTime=680 
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5f,version=1328632762105,generation=195,filenames=[_43.prx, _44.frq, _44.fdx, _43.tii, _43.frq, segments_5f, _43.nrm, _44.fdt, _43.tvx, _43.tis, _44.fnm, _44.tvx, _44.tii, _44.nrm, _43.fdx, _44.prx, _44.tis, _43.fnm, _44.tvd, _43.tvf, _44.tvf, _43.tvd, _43.fdt]
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762105
+Feb 14, 2012 1:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5f,version=1328632762105,generation=195,filenames=[_43.prx, _44.frq, _44.fdx, _43.tii, _43.frq, segments_5f, _43.nrm, _44.fdt, _43.tvx, _43.tis, _44.fnm, _44.tvx, _44.tii, _44.nrm, _43.fdx, _44.prx, _44.tis, _43.fnm, _44.tvd, _43.tvf, _44.tvf, _43.tvd, _43.fdt]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5g,version=1328632762108,generation=196,filenames=[_43.prx, _45.prx, _44.frq, segments_5g, _43.nrm, _45.frq, _44.fnm, _44.prx, _45.fnm, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _45.tvd, _45.nrm, _45.tvf, _45.fdt, _45.tvx, _45.tii, _45.fdx, _44.fdx, _43.frq, _43.tii, _43_1.del, _44.fdt, _43.tvx, _43.tis, _44.tvx, _44.nrm, _44.tii, _43.fdx, _45.tis, _44.tis, _43.fdt]
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762108
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2583d260 main
+Feb 14, 2012 1:25:28 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2583d260 main from Searcher@445ead9d main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2583d260 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2583d260 main from Searcher@445ead9d main
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=2,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=2,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2583d260 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=2,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=2,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2583d260 main from Searcher@445ead9d main
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=4,cumulative_hits=2,cumulative_hitratio=0.50,cumulative_inserts=2,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2583d260 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=4,cumulative_hits=2,cumulative_hitratio=0.50,cumulative_inserts=2,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@2583d260 main from Searcher@445ead9d main
+	documentCache{lookups=40,hits=30,hitratio=0.75,inserts=10,evictions=0,size=10,warmupTime=0,cumulative_lookups=55,cumulative_hits=41,cumulative_hitratio=0.74,cumulative_inserts=14,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@2583d260 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=55,cumulative_hits=41,cumulative_hitratio=0.74,cumulative_inserts=14,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@2583d260 main
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@2583d260 main
+Feb 14, 2012 1:25:28 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@445ead9d main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=2,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=2,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=4,cumulative_hits=2,cumulative_hitratio=0.50,cumulative_inserts=2,cumulative_evictions=0}
+	documentCache{lookups=40,hits=30,hitratio=0.75,inserts=10,evictions=0,size=10,warmupTime=0,cumulative_lookups=55,cumulative_hits=41,cumulative_hitratio=0.74,cumulative_inserts=14,cumulative_evictions=0}
+Feb 14, 2012 1:25:28 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.texte.1, doxer.texte.2, doxer.texte.3, doxer.texte.4, doxer.texte.5, doxer.texte.6, doxer.texte.7, doxer.texte.8, ... (18 adds)],commit=} 0 57
+Feb 14, 2012 1:25:28 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=57 
+Feb 14, 2012 1:25:42 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select/ params={fl=text&q=texteid:24&tv.all=true&tv.positions=true&tv.fl=textengram&wt=json&qt=tvrh&fq=django_ct:(doxer.texte)} hits=1 status=0 QTime=13 
+Feb 14, 2012 1:26:00 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select/ params={fl=text&q=texteid:24&tv.all=true&tv.positions=true&tv.fl=textengram&wt=json&qt=tvrh&fq=django_ct:(doxer.texte)} hits=1 status=0 QTime=11 
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5g,version=1328632762108,generation=196,filenames=[_43.prx, _45.prx, _44.frq, segments_5g, _43.nrm, _45.frq, _44.fnm, _44.prx, _45.fnm, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _45.tvd, _45.nrm, _45.tvf, _45.fdt, _45.tvx, _45.tii, _45.fdx, _44.fdx, _43.frq, _43.tii, _43_1.del, _44.fdt, _43.tvx, _43.tis, _44.tvx, _44.nrm, _44.tii, _43.fdx, _45.tis, _44.tis, _43.fdt]
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762108
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5g,version=1328632762108,generation=196,filenames=[_43.prx, _45.prx, _44.frq, segments_5g, _43.nrm, _45.frq, _44.fnm, _44.prx, _45.fnm, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _45.tvd, _45.nrm, _45.tvf, _45.fdt, _45.tvx, _45.tii, _45.fdx, _44.fdx, _43.frq, _43.tii, _43_1.del, _44.fdt, _43.tvx, _43.tis, _44.tvx, _44.nrm, _44.tii, _43.fdx, _45.tis, _44.tis, _43.fdt]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5h,version=1328632762112,generation=197,filenames=[_43.prx, _44.frq, segments_5h, _46.prx, _43.nrm, _46.fdx, _44.fnm, _46.fdt, _44.prx, _46.fnm, _46.tvx, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _46.frq, _44.fdx, _46.tvf, _43.frq, _43.tii, _43_1.del, _46.tvd, _46.nrm, _44.fdt, _43.tvx, _43.tis, _44.tvx, _46.tii, _44.nrm, _44.tii, _43.fdx, _46.tis, _44.tis, _43.fdt]
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762112
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@67b14530 main
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@67b14530 main from Searcher@2583d260 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@67b14530 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@67b14530 main from Searcher@2583d260 main
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@67b14530 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@67b14530 main from Searcher@2583d260 main
+	queryResultCache{lookups=2,hits=1,hitratio=0.50,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@67b14530 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@67b14530 main from Searcher@2583d260 main
+	documentCache{lookups=4,hits=3,hitratio=0.75,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@67b14530 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@67b14530 main
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@67b14530 main
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@2583d260 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+	queryResultCache{lookups=2,hits=1,hitratio=0.50,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+	documentCache{lookups=4,hits=3,hitratio=0.75,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.texte.1, doxer.texte.2, doxer.texte.3, doxer.texte.4, doxer.texte.5, doxer.texte.6, doxer.texte.7, doxer.texte.8, ... (20 adds)],commit=} 0 44
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=44 
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5h,version=1328632762112,generation=197,filenames=[_43.prx, _44.frq, segments_5h, _46.prx, _43.nrm, _46.fdx, _44.fnm, _46.fdt, _44.prx, _46.fnm, _46.tvx, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _46.frq, _44.fdx, _46.tvf, _43.frq, _43.tii, _43_1.del, _46.tvd, _46.nrm, _44.fdt, _43.tvx, _43.tis, _44.tvx, _46.tii, _44.nrm, _44.tii, _43.fdx, _46.tis, _44.tis, _43.fdt]
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762112
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5h,version=1328632762112,generation=197,filenames=[_43.prx, _44.frq, segments_5h, _46.prx, _43.nrm, _46.fdx, _44.fnm, _46.fdt, _44.prx, _46.fnm, _46.tvx, _43.fnm, _43.tvf, _44.tvd, _43.tvd, _44.tvf, _46.frq, _44.fdx, _46.tvf, _43.frq, _43.tii, _43_1.del, _46.tvd, _46.nrm, _44.fdt, _43.tvx, _43.tis, _44.tvx, _46.tii, _44.nrm, _44.tii, _43.fdx, _46.tis, _44.tis, _43.fdt]
+	commit{dir=/home/pj/djangos/dexter/solr/solr/data/index,segFN=segments_5i,version=1328632762114,generation=198,filenames=[_43.prx, segments_5i, _44.frq, _47.tis, _46.prx, _43.nrm, _46.fdx, _47.nrm, _44.fnm, _46.fdt, _47.frq, _44.prx, _46.fnm, _46.tvx, _43.fnm, _47.fnm, _43.tvf, _44.tvd, _47.tvx, _43.tvd, _44.tvf, _47.tii, _46.frq, _47.tvd, _44.fdx, _46.tvf, _43.frq, _43.tii, _43_1.del, _46.tvd, _46.nrm, _44.fdt, _47.tvf, _43.tvx, _43.tis, _44.tvx, _46.tii, _44.nrm, _44.tii, _47.prx, _43.fdx, _47.fdx, _46.tis, _44.tis, _47.fdt, _43.fdt]
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328632762114
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5ce8787a main
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5ce8787a main from Searcher@67b14530 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5ce8787a main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5ce8787a main from Searcher@67b14530 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5ce8787a main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5ce8787a main from Searcher@67b14530 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5ce8787a main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5ce8787a main from Searcher@67b14530 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5ce8787a main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@5ce8787a main
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@5ce8787a main
+Feb 14, 2012 1:26:33 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@67b14530 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=3,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=3,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=6,cumulative_hits=3,cumulative_hitratio=0.50,cumulative_inserts=3,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=59,cumulative_hits=44,cumulative_hitratio=0.74,cumulative_inserts=15,cumulative_evictions=0}
+Feb 14, 2012 1:26:33 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[doxer.ngram.11, doxer.ngram.12, doxer.ngram.13, doxer.ngram.14, doxer.ngram.15, doxer.ngram.16, doxer.ngram.17, doxer.ngram.18, ... (10 adds)],commit=} 0 34
+Feb 14, 2012 1:26:33 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update/ params={commit=true} status=0 QTime=34 
+Feb 14, 2012 1:26:36 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/clustering/ params={fl=ngramxmlid,id&q=texteid:26&wt=json&fq=django_ct:(doxer.ngram)&usingreqhandler=clustering&rows=10} hits=10 status=0 QTime=18 
+2012-02-14 14:14:01.711:INFO::Shutdown hook executing
+2012-02-14 14:14:01.712:INFO::Graceful shutdown SocketConnector@0.0.0.0:8985
+2012-02-14 14:14:01.712:INFO::Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@23087d61{/solr,file:/home/pj/djangos/dexter/solr/webapps/solr.war}
+2012-02-14 14:14:02.713:INFO::Stopped SocketConnector@0.0.0.0:8985
+2012-02-14 14:14:02.823:INFO::Shutdown hook complete

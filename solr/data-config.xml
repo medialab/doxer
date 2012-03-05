@@ -1,0 +1,31 @@
+<dataConfig>
+	
+	<script><![CDATA[
+		id=0;
+		function GenerateId(row) {
+			id+=1;
+			row.put('id', 'formid_'+id.toFixed().toString());
+			row.put('wordpos',id.toFixed());
+			return row;
+		}
+		function SplitPosLem(row) {
+			row.put( 'testpos',row.get('testclass').split(" ")[0].split("_")[1] );
+			row.put( 'testlem',row.get('testclass').split(" ")[1].split("_")[1] );
+			return row;
+		}
+       ]]>
+	</script>
+
+    <dataSource type="ContentStreamDataSource" connectionTimeout="300000" readTimeout="400000" />
+    <document>
+        <entity name="meschaquemots"
+        		dataSource="c"
+                stream="true"
+                processor="XPathEntityProcessor"
+                forEach="/html/body/div/span"
+                transformer="script:GenerateId,script:SplitPosLem">
+                    <field column="testform" xpath="/html/body/div/span"/>
+                    <field column="testclass" xpath="/html/body/div/span/@class"/>
+        </entity>
+    </document>
+</dataConfig>

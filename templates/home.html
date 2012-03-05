@@ -1,0 +1,236 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>dexter ngrams killer</title>
+	<link rel="stylesheet" href="{{ MEDIA_URL }}/style.css" />
+
+	<script type="text/javascript" src="{{MEDIA_URL}}/jquery-1.6.2.min.js"></script>
+	
+	<script src="{{MEDIA_URL}}/fileuploader/fileuploader.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="{{MEDIA_URL}}/fileuploader/fileuploader.css"/>
+</head>
+
+<body>
+<!-- ================================= -->
+<ol>
+
+</ol>
+<h2><a href='' onclick='$("#div_usage").toggle("fast");return false;'>what shall i do ?</a></h2>
+<div id='div_usage' style="display:none;">
+	<ul>
+		<li><a href="http://jiminy-dev.medialab.sciences-po.fr:8985/solr/admin/">solr</a> status: {{solrstatus}}
+		(<a href="{% url dexter.doxer.views.killSolrProcess %}">kill process</a> or refresh page to relaunch it if down)
+		</li>
+		<li><a href="{% url dexter.doxer.views.reset %}">reset</a> (kill all django objects & clear solr index)</li>
+		
+		<li><span class="tutos">i have a .txt file</span> like <a href="{{MEDIA_URL}}/sample/_example.txt">_example.txt</a></li>
+		<li>use <a href="http://textometrie.ens-lyon.fr/">TXM</a> to produce a <span class="tutoe">txmtxt</span> | <span class="tutoe">txmxml</span> file, enriched with POS & lemmas</li>
+		<li class="tuton"><span class="tutoe">txmtxt</span> if you imported a simple txt file in TXM</li>
+		<li class="tuton"><span class="tutoe">txmxml</span> if you imported an xml file (had & wanted to keep xml tags in following operations) - still unsupported</li>
+		
+		<li><span class="tutos">i have a .txm.xml file</span> like <a href="{{MEDIA_URL}}/sample/_example.txmtxt.xml">_example.txmtxt.xml</a></li>
+		<li><span class="tutoa">txmtxt</span> | <span class="tutoa">txmxml</span> it to make a normalized file using XSLT (up to 10sec)</li>
+		<li class="tuton">you can display <span class="tutoa">raw</span> the newly created <span class="tutoe">.mlb.xml</span></li>
+		
+		<li><span class="tutos">i have a .mlb.xml file</span> like <a href="{{MEDIA_URL}}/sample/_example.mlb.xml">_example.mlb.xml</a></li>
+		<li><span class="tutoa">update_index</span> on <span class="tutoe">.mlb.xml</span> (solr will filters the XML tags and index the txt content, keeping initial positions) (up to 10sec)</li>
+		<li class="tuton">you can display <span class="tutoa">solr_index</span> to display the detected ngrams</li>
+		<li><span class="tutoa">enrich_with_ngrams</span> to make a new XML enriched with those ngrams (up to 8min)</li>
+		<li class="tuton">you can display <span class="tutoa">csv</span> the newly created <span class="tutoe">_ngr.mlb.csv</span></li>
+		<li class="tuton">you can display <span class="tutoa">raw</span> the newly created <span class="tutoe">_ngr.mlb.xml</span></li>
+		
+		<li><span class="tutos">i have a ngrams .mlb.csv file</span> like <a href="{{MEDIA_URL}}/sample/_example.mlb.csv">_example.mlb.csv</a></li>
+		<li><span class="tutoa">update_index</span> on <span class="tutoe">.mlb.csv</span> (solr will index each ngram as distinct doc) (up to 10sec)</li>
+		<li class="tuton">you can display <span class="tutoa">solr_index</span> to display the solr classification for those ngrams</li>
+		<li><span class="tutoa">group_ngrams</span> to make new file(s) based on that grouping (up to 2min)</li>
+		<li class="tuton">you can display <span class="tutoa">csv</span> the newly created <span class="tutoe">_grp.mlb.csv</span></li>
+		<li class="tuton">you can display <span class="tutoa">raw</span> the newly created <span class="tutoe">_grp.mlb.xml</span> (except if you just uploaded a .mlb.csv)</li>
+	</ul>
+</div>
+<hr/>
+
+<div id="file-uploader"></div>
+<!-- ================================= -->
+
+<h2>{{textes|length}} texte(s) found in upload folder (xml|csv|txt)</h2>
+<ul>
+<li>deleting is not permitted on filenames starting by "_" (except if they contain "[")</li>
+<li>fetch ngrams with at least <select id="mintn" name="mintn"></select> occurrences (mintn)</li>
+<li>note that you may have errors if no ngrams are detected, try then with a smaller mintn</li>
+</ul>
+<script type="text/javascript">
+for(var i=1;i<10;i++){
+	$("<option>",{'value':i,'text':i}).appendTo($("#mintn"));
+};
+$("#mintn").change(function(e) {
+	var mintn = $(this).val();
+	$(".solrlink").each(function(e) {
+		var href = $(this).attr('href');
+		var sp = href.split("&");
+		var newhref='';
+		if(sp.length==1) newhref=href+'?mintn='+mintn;
+		if(sp.length==2) newhref=href+'&mintn='+mintn;
+		if(sp.length==3) newhref=sp.slice(0,2).join('&')+'&mintn='+mintn;
+		//console.log("new href:"+newhref);
+		$(this).attr('href',newhref);
+	});
+	
+});
+</script>
+
+<table class="table_docs">
+	<tr>
+		<td>id</td>
+		<td>file</td>
+		<td>type</td>
+		<td>related to</td>
+		<td>display below</td>
+		<td>display outside</td>
+		<td>action xslt</td>
+		<td>action solr</td>
+		<td>action django using solr</td>
+	</tr>
+{% for t in textes %}
+	<tr {%if t.id == did|add:0 %}class="selected"{%endif%}>
+		<td>{{t.id}}</td>
+		<td><a href="{% url dexter.doxer.views.edDelete t.id %}">delete</a> <span class="docname">{{t.name}}</span></td>
+		<td>{{t.doctype}}</td>
+		<!--<td>{{t.locationpath|slice:"-3:"}}</td>-->
+		<td>{% for relt in t.relatedtextes.all %}{{relt.id}}{% endfor %}</td>
+		<td>
+			<a href="?d={{t.id}}&see=raw">raw</a>
+			{%if t.doctype == 'mlbcsv' or t.doctype == 'mlbxml'%} | <a class="solrlink" href="?d={{t.id}}&see=index">solr_index</a>{%endif%}
+			{%if t.doctype == 'mlbcsv'%} | <a href="?d={{t.id}}&see=table">csv</a>{%endif%}
+			
+		</td>
+		<td>
+			<a href="{% url dexter.doxer.views.edRawLook t.id %}">look</a> | 
+			<a href="{% url dexter.doxer.views.edRawGet t.id %}">get</a>
+		</td>
+		<td>
+			{%if t.doctype == 'txmtxt'%}<a href="{% url dexter.doxer.views.edMakeXslt t.id 'txmtxt2mlab' %}">txmtxt</a>{%endif%}
+			{%if t.doctype == 'txmxml'%}<a href="{% url dexter.doxer.views.edMakeXslt t.id 'txmxml2mlab' %}">txmxml</a>{%endif%}
+		</td>
+		<td>
+			<!--{%if t.doctype == 'mlbcsv' or t.doctype == 'mlbxml'%}<a href="{% url dexter.doxer.views.edRefresh t.id %}">update_index</a>{%endif%}-->
+			<a href="{% url dexter.doxer.views.edRefresh t.id %}">update_index</a>
+		</td>
+		<td>
+			{%if t.doctype == 'mlbxml'%}<a class="solrlink" href="{% url dexter.doxer.views.edMakeEnrichXmlWithNgrams t.id %}">enrich_with_ngrams</a>{%endif%}
+			{%if t.doctype == 'mlbcsv'%}<a href="{% url dexter.doxer.views.edMakeGroupNgrams t.id %}">group_ngrams</a>{%endif%}
+		</td>
+		<!--<td>{{t.locationpath}}</td>-->
+	</tr>
+{% endfor %}
+</table>
+<hr/>
+
+<!-- ================================= -->
+<div class="div_bottom">
+{% if request.GET.d %}
+	{% if request.GET.see == 'raw' %}
+		<iframe width="70%" height="400" src="{% url dexter.doxer.views.edRawLook did %}"></iframe>
+	{% else %}
+		<h2>[{{did}}] {{tabledata|length}} row(s) ! ({% if request.GET.see == 'index' %}data fetched from solr-index{%else%}csv file{%endif%})</h2>
+		<table class="table_index">
+			<tr>
+				<td></td>{% for key,val in tabledata.0.items %}<td>{{key}}</td>{% endfor %}
+			</tr>
+		{% for row in tabledata %}
+			<tr class="highlight_{{row.highlight}}">
+				<td>{{forloop.counter}}</td>
+				{% for key,val in row.items %}
+					<td>{{val}}</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
+		</table>
+	{% endif %}
+{% else %}
+please clic on a "display below" action to display details
+{% endif %}
+</div>
+<!-- ================================= -->
+<!--
+<h3>Search</h3>
+
+	<form id="searchForm">
+		<input id="form_query" type="text" name="q"/>
+		<input id="form_submit" type="submit" name="_search" value="Search"/>
+	</form>
+	<div id="searchResults">no results yet</div>
+-->
+<!-- ================================= -->
+
+
+
+
+</body>
+
+<script type="text/javascript">
+function createFileUploader(){			
+	var uploader = new qq.FileUploader({
+		element: $('#file-uploader')[0],
+		action: "{% url dexter.doxer.views.uploadFile %}",
+		debug: true,
+		multiple: true,
+		params: {
+			'csrf_token': '{{csrf_token}}',
+			'csrf_name': 'csrfmiddlewaretoken',
+			'csrf_xname': 'X-CSRFToken',
+		},
+		onSubmit: function(id, fileName){
+			// when clicked
+		},
+		onComplete: function( id, fileName, responseJSON ) {
+			// on each file complete
+		},
+		onAllComplete: function( uploads ) {
+			console.log("upload done");
+		}
+	});   		
+}
+</script>
+
+<script type="text/javascript">
+	////////////////////////////////////////////////////////// LAUNCH SEARCH FUNCTION
+	function launchSearch(extraParam) {
+		var form = $("#searchForm");
+		// GET parameters from the form, and from facets
+		var paramlist = form.serialize();
+		if(extraParam) paramlist += "&"+extraParam ;
+		console.log("Search launched with params: "+paramlist);
+		
+		$.ajax({
+			type: "GET",
+			url: '{% url dexter.doxer.views.home %}?'+paramlist ,
+			cache: false,
+			success: function processAnswer(html) {
+				//console.log('Search results received!');
+				$('#searchResults').html(html);
+			}
+		});
+		$("#form_submit").attr('disabled', false);	
+	};
+	
+	$(document).ready(function() {
+		var form = $("#searchForm");
+		form.submit(function(e) {
+			if ($('#form_query').val()=="") {
+				console.log("Search aborted (nothing was typed)");
+				return false;
+			}
+			else {
+				$("#form_submit").attr('disabled', true)
+				launchSearch();
+				e.preventDefault(); 
+			}
+		});
+		
+
+		createFileUploader();
+
+	});
+</script>
+
+</html>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" href="/dexter/media/xml/mlab.css"/>
+  </head>
+  <body>
+    <div><span class="pos_PRO:DEM lem_ce">c'</span> 
+	<span class="pos_VER:pres lem_être">est</span> 
+	<span class="pos_ADJ lem_formidable">formidable</span> 
+	<span class="pos_SENT lem_!">!</span> 
+	<span class="pos_PRO:PER lem_je">je</span> 
+	<span class="pos_VER:pres lem_vivre">vis</span> 
+	<span class="pos_PRP lem_à">à</span> 
+	<span class="pos_NAM lem_New">New</span> 
+	<span class="pos_NAM lem_York">York</span> 
+	<span class="pos_SENT lem_.">.</span> 
+	<span class="pos_PRO:PER lem_je">Je</span> 
+	<span class="pos_VER:pres lem_vivre">vis</span> 
+	<span class="pos_PRP lem_avec">avec</span> 
+	<span class="pos_NAM lem_Marie">Marie</span> 
+	<span class="pos_PUN lem_-">-</span> 
+	<span class="pos_NAM lem_Claire">Claire</span> 
+	<span class="pos_PRO:REL lem_qui">qui</span> 
+	<span class="pos_VER:pres lem_vivre">vit</span> 
+	<span class="pos_PRP lem_à">à</span> 
+	<span class="pos_NAM lem_Paris">Paris</span> 
+	<span class="pos_SENT lem_.">.</span> 
+	<span class="pos_PRO:PER lem_nous">Nous</span> 
+	<span class="pos_VER:pres lem_sommer|être">sommes</span> 
+	<span class="pos_ADV lem_plutôt">plutôt</span> 
+	<span class="pos_ADJ lem_sympathique">sympathiques</span> 
+	<span class="pos_SENT lem_.">.</span> 
+	<span class="pos_INT lem_bravo">bravo</span> 
+	<span class="pos_SENT lem_?">?</span> 
+	</div>
+  </body>
+</html>

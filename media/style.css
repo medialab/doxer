@@ -1,0 +1,67 @@
+body {
+	font-size:0.7em;
+	font-family:"Lucida Grande";
+}
+a {
+	/*text-decoration: none;*/
+	color:gray;
+}
+a:hover {
+	text-decoration: underline;
+	color:blue;
+}
+
+ul {
+	list-style-type: none;
+}
+li {
+	margin-bottom: 3px;
+}
+
+/* tables */
+.table_docs td {
+	padding:3px;
+	border:1px solid lightgray;
+	font-size:0.7em;
+}
+.docname {
+	font-stretch:extra-expanded;
+}
+.table_index td {
+	padding:3px;
+	border:1px solid lightgray;
+	background:white;
+	font-size:0.6em;
+}
+table tr:first-child, table td:first-child {
+	background:lightgray;
+}
+
+/* document selection & ngrams */
+div.div_bottom {
+	background:#FFECD6;
+	padding:10px;
+}
+tr.selected {
+	background:#FFECD6;
+}
+tr.highlight_True td {
+	background:yellow;
+}
+
+/* for tutorial on top */
+.tutoa {
+	color:blue;
+}
+.tutoe {
+	color:red;
+}
+.tutos {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left:20px;
+}
+.tuton {
+	opacity:0.4;
+}
