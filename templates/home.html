@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>dexter ngrams killer</title>
+	<title>doxer ngrams killer</title>
 	<link rel="stylesheet" href="{{ MEDIA_URL }}/style.css" />
 
 	<script type="text/javascript" src="{{MEDIA_URL}}/jquery-1.6.2.min.js"></script>
@@ -19,9 +19,9 @@
 <div id='div_usage' style="display:none;">
 	<ul>
 		<li><a href="http://jiminy-dev.medialab.sciences-po.fr:8985/solr/admin/">solr</a> status: {{solrstatus}}
-		(<a href="{% url dexter.doxer.views.killSolrProcess %}">kill process</a> or refresh page to relaunch it if down)
+		(<a href="{% url doxer.ngramer.views.killSolrProcess %}">kill process</a> or refresh page to relaunch it if down)
 		</li>
-		<li><a href="{% url dexter.doxer.views.reset %}">reset</a> (kill all django objects & clear solr index)</li>
+		<li><a href="{% url doxer.ngramer.views.reset %}">reset</a> (kill all django objects & clear solr index)</li>
 		
 		<li><span class="tutos">i have a .txt file</span> like <a href="{{MEDIA_URL}}/sample/_example.txt">_example.txt</a></li>
 		<li>use <a href="http://textometrie.ens-lyon.fr/">TXM</a> to produce a <span class="tutoe">txmtxt</span> | <span class="tutoe">txmxml</span> file, enriched with POS & lemmas</li>
@@ -93,7 +93,7 @@ $("#mintn").change(function(e) {
 {% for t in textes %}
 	<tr {%if t.id == did|add:0 %}class="selected"{%endif%}>
 		<td>{{t.id}}</td>
-		<td><a href="{% url dexter.doxer.views.edDelete t.id %}">delete</a> <span class="docname">{{t.name}}</span></td>
+		<td><a href="{% url doxer.ngramer.views.edDelete t.id %}">delete</a> <span class="docname">{{t.name}}</span></td>
 		<td>{{t.doctype}}</td>
 		<!--<td>{{t.locationpath|slice:"-3:"}}</td>-->
 		<td>{% for relt in t.relatedtextes.all %}{{relt.id}}{% endfor %}</td>
@@ -104,20 +104,20 @@ $("#mintn").change(function(e) {
 			
 		</td>
 		<td>
-			<a href="{% url dexter.doxer.views.edRawLook t.id %}">look</a> | 
-			<a href="{% url dexter.doxer.views.edRawGet t.id %}">get</a>
+			<a href="{% url doxer.ngramer.views.edRawLook t.id %}">look</a> | 
+			<a href="{% url doxer.ngramer.views.edRawGet t.id %}">get</a>
 		</td>
 		<td>
-			{%if t.doctype == 'txmtxt'%}<a href="{% url dexter.doxer.views.edMakeXslt t.id 'txmtxt2mlab' %}">txmtxt</a>{%endif%}
-			{%if t.doctype == 'txmxml'%}<a href="{% url dexter.doxer.views.edMakeXslt t.id 'txmxml2mlab' %}">txmxml</a>{%endif%}
+			{%if t.doctype == 'txmtxt'%}<a href="{% url doxer.ngramer.views.edMakeXslt t.id 'txmtxt2mlab' %}">txmtxt</a>{%endif%}
+			{%if t.doctype == 'txmxml'%}<a href="{% url doxer.ngramer.views.edMakeXslt t.id 'txmxml2mlab' %}">txmxml</a>{%endif%}
 		</td>
 		<td>
-			<!--{%if t.doctype == 'mlbcsv' or t.doctype == 'mlbxml'%}<a href="{% url dexter.doxer.views.edRefresh t.id %}">update_index</a>{%endif%}-->
-			<a href="{% url dexter.doxer.views.edRefresh t.id %}">update_index</a>
+			<!--{%if t.doctype == 'mlbcsv' or t.doctype == 'mlbxml'%}<a href="{% url doxer.ngramer.views.edRefresh t.id %}">update_index</a>{%endif%}-->
+			<a href="{% url doxer.ngramer.views.edRefresh t.id %}">update_index</a>
 		</td>
 		<td>
-			{%if t.doctype == 'mlbxml'%}<a class="solrlink" href="{% url dexter.doxer.views.edMakeEnrichXmlWithNgrams t.id %}">enrich_with_ngrams</a>{%endif%}
-			{%if t.doctype == 'mlbcsv'%}<a href="{% url dexter.doxer.views.edMakeGroupNgrams t.id %}">group_ngrams</a>{%endif%}
+			{%if t.doctype == 'mlbxml'%}<a class="solrlink" href="{% url doxer.ngramer.views.edMakeEnrichXmlWithNgrams t.id %}">enrich_with_ngrams</a>{%endif%}
+			{%if t.doctype == 'mlbcsv'%}<a href="{% url doxer.ngramer.views.edMakeGroupNgrams t.id %}">group_ngrams</a>{%endif%}
 		</td>
 		<!--<td>{{t.locationpath}}</td>-->
 	</tr>
@@ -129,7 +129,7 @@ $("#mintn").change(function(e) {
 <div class="div_bottom">
 {% if request.GET.d %}
 	{% if request.GET.see == 'raw' %}
-		<iframe width="70%" height="400" src="{% url dexter.doxer.views.edRawLook did %}"></iframe>
+		<iframe width="70%" height="400" src="{% url doxer.ngramer.views.edRawLook did %}"></iframe>
 	{% else %}
 		<h2>[{{did}}] {{tabledata|length}} row(s) ! ({% if request.GET.see == 'index' %}data fetched from solr-index{%else%}csv file{%endif%})</h2>
 		<table class="table_index">
@@ -171,7 +171,7 @@ please clic on a "display below" action to display details
 function createFileUploader(){			
 	var uploader = new qq.FileUploader({
 		element: $('#file-uploader')[0],
-		action: "{% url dexter.doxer.views.uploadFile %}",
+		action: "{% url doxer.ngramer.views.uploadFile %}",
 		debug: true,
 		multiple: true,
 		params: {
@@ -203,7 +203,7 @@ function createFileUploader(){
 		
 		$.ajax({
 			type: "GET",
-			url: '{% url dexter.doxer.views.home %}?'+paramlist ,
+			url: '{% url doxer.ngramer.views.home %}?'+paramlist ,
 			cache: false,
 			success: function processAnswer(html) {
 				//console.log('Search results received!');

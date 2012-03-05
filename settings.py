@@ -1,14 +1,14 @@
-# Django settings for dexter project.
+# Django settings for doxer project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-# DEXTERPROJECTPATH
+# PROJECTPATH
 # DBNAME
 # DBUSER
 # DBPASSWORD
 # are defined in:
-import settingsprivate
+from settingsprivate import *
 
 
 ######## Some settings
@@ -17,7 +17,7 @@ XMLTXM = '{http://textometrie.org/1.0}'
 
 ######## HAYSTACK
 # Required and specific to where you place the file.
-HAYSTACK_SITECONF = 'dexter.search_sites'
+HAYSTACK_SITECONF = 'doxer.search_sites'
 
 # Optional Haystack settings.
 # See `docs/settings.rst` for a complete list.
@@ -72,12 +72,12 @@ USE_L10N = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = DEXTERPROJECTPATH+'media/'
+MEDIA_ROOT = PROJECTPATH+'media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = '/dexter/media/'
+MEDIA_URL = '/doxer/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -127,10 +127,10 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'dexter.urls'
+ROOT_URLCONF = 'doxer.urls'
 
 TEMPLATE_DIRS = (
-	DEXTERPROJECTPATH+'templates'
+	PROJECTPATH+'templates'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -143,7 +143,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'doxer',
+    'ngramer',
     'haystack',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',

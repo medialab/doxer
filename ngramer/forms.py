@@ -8,7 +8,7 @@ from django import forms
 # haystack forms
 from haystack.forms import *
 
-from dexter.doxer.models import *
+from doxer.ngramer.models import *
 ###########################################################################################
 
 

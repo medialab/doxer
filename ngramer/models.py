@@ -8,7 +8,7 @@ import re
 # for raw search to do tag cloud using haystack/solr
 from haystack.query import SearchQuerySet,SQ
 # to get termVectors tf/df/tfidf using raw_queries with pythonsolr
-import dexter.pythonsolrpatched as pythonsolr
+import doxer.pythonsolrpatched as pythonsolr
 
 
 

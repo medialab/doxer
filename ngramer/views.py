@@ -1,8 +1,8 @@
 # Create your views here.
-from dexter.doxer.models import *
-from dexter.doxer.forms import *
+from doxer.ngramer.models import *
+from doxer.ngramer.forms import *
 
-from dexter.doxer.utils import *
+from doxer.ngramer.utils import *
 import codecs
 
 from django.http import HttpResponse
@@ -32,13 +32,13 @@ from haystack.query import *
 ###########################################################################
 # SOLR simple process manager
 ###########################################################################
-SOLR_JARNAME = "startdextersolr.jar"
+SOLR_JARNAME = "startdoxersolr.jar"
 #############################
 def checkSolrProcess():
 	tmp = os.popen("ps -Af").read()
-	process_name = "startdextersolr.jar"
+	process_name = "startdoxersolr.jar"
 	if SOLR_JARNAME not in tmp[:]:
-		newprocess = "cd %s && nohup java -Dsolr.clustering.enabled=true -jar %s &" % (settings.DEXTERPROJECTPATH+"/solr/",SOLR_JARNAME)
+		newprocess = "cd %s && nohup java -Dsolr.clustering.enabled=true -jar %s &" % (settings.PROJECTPATH+"/solr/",SOLR_JARNAME)
 		os.system(newprocess)
 		return 'solr was relaunched, refresh page to be sure'
 	else:
@@ -67,7 +67,7 @@ def home(request):
 	#searchresults={}
 	
 	# list files in directory
-	uploadPath = settings.DEXTERPROJECTPATH+'upload/'
+	uploadPath = settings.PROJECTPATH+'upload/'
 	contents = os.listdir(uploadPath)
 	
 	for a in contents:
@@ -140,13 +140,13 @@ def reset(request):
 	arg = {'interactive':False,'verbosity':0}
 	clear_index.Command().handle(**arg)
 	# os.system() disabled in django view when there is 
-	#res = os.system('~/djangos/dexter/dexter/manage.py clear_index --noinput --verbosity=0')
-	#subprocess.Popen('~/djangos/dexter/dexter/python manage.py clear_index --noinput --verbosity=0',shell=True).wait()
-	#subprocess.call('~/djangos/dexter/dexter/python manage.py clear_index --noinput --verbosity=0',shell=True)
+	#res = os.system('~/djangos/doxer/doxer/manage.py clear_index --noinput --verbosity=0')
+	#subprocess.Popen('~/djangos/doxer/doxer/python manage.py clear_index --noinput --verbosity=0',shell=True).wait()
+	#subprocess.call('~/djangos/doxer/doxer/python manage.py clear_index --noinput --verbosity=0',shell=True)
 	#management.call_command('clear_index', verbosity=0)
 	#backend = connections['default'].get_backend()
 	#backend.clear()
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 def edRefresh(request,did):
 	texte = Texte.objects.get(id=did)
@@ -192,7 +192,7 @@ def edRefresh(request,did):
 		# update lucene index
 		update_index.Command().handle(verbosity=0)
 			
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 def edDelete(request,did):
 	texte = Texte.objects.get(id=did)
@@ -200,7 +200,7 @@ def edDelete(request,did):
 	if '*' not in texte.locationpath and (not filename.startswith("_") or "[" in filename):
 		os.remove(texte.locationpath)
 		texte.delete()
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 def edRawLook(request,did):
 	texte = Texte.objects.get(id=did)
@@ -231,7 +231,7 @@ def uploadFile(request):
 	d={}
 	success=""
 	if request.method == "POST":
-		foldname = settings.DEXTERPROJECTPATH+'upload/'
+		foldname = settings.PROJECTPATH+'upload/'
 		if request.is_ajax( ):
 			upload = request
 			is_raw = True
@@ -319,11 +319,11 @@ def edMakeXslt(request,did,typ):
 	result = etree.tostring(transform(xml_root),pretty_print=True,encoding='UTF-8',xml_declaration=True)
 	
 	newname = texte.name[:-4]+"["+str(texte.id)+"].mlb.xml"
-	newfilepath = settings.DEXTERPROJECTPATH+'upload/'+newname
+	newfilepath = settings.PROJECTPATH+'upload/'+newname
 	fileout=open(newfilepath,'w')
 	fileout.write(result)
 	fileout.close()
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 def edMakeEnrichXmlWithNgrams(request,did):
 	texte = Texte.objects.get(id=did)
@@ -369,7 +369,7 @@ def edMakeEnrichXmlWithNgrams(request,did):
 	newEnrichedTexteCsv.relatedtextes.add(newEnrichedTexteXml)
 	newEnrichedTexteCsv.save()
 	
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 def edMakeGroupNgrams(request,did):
 	# source file is the ngram list
@@ -379,7 +379,7 @@ def edMakeGroupNgrams(request,did):
 	inCsvPath = texte.locationpath
 	outCsvPath = texte.locationpath[:-8]+'grp.mlb.csv'
 	
-	try: # if was produced by dexter
+	try: # if was produced by doxer
 		inXmlPath = texte.relatedtextes.all()[0].locationpath
 		outXmlPath = texte.relatedtextes.all()[0].locationpath[:-8]+'grp.mlb.xml'
 		producexml=True
@@ -421,7 +421,7 @@ def edMakeGroupNgrams(request,did):
 		newEnrichedTexteCsv.relatedtextes.add(newEnrichedTexteXml)
 		newEnrichedTexteCsv.save()
 		
-	return redirect('/dexter')
+	return redirect('/doxer')
 ############################################################
 
 

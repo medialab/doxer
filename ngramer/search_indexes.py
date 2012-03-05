@@ -2,7 +2,7 @@
 ################################################
 from haystack.indexes import *
 from haystack import site
-from doxer.models import *
+from ngramer.models import *
 ################################################
 
 # For the most basic usage, you can simply register a model with the `site`.
